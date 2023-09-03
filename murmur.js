@@ -77,5 +77,3 @@ client.on("interactionCreate", async (interaction) => {
 
 // Log in with the bot token from the environment variable
 client.login(process.env.BOT_TOKEN);
-
-// const { token, prefix } = require("./config.json");
