@@ -1,0 +1,19 @@
+{
+  "name": "murmur",
+  "version": "1.0.0",
+  "description": "Discord Bot",
+  "main": "murmur.js",
+  "scripts": {
+    "start": "node register-commands.js && nodemon murmur.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alyazalea",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
